@@ -1,6 +1,6 @@
 #pragma once
 
-#include "fft.h"
+#include <complex>
 
 template <unsigned N, typename T=float>
 void conjmult(const std::complex<T> *a, const std::complex<T> *b, std::complex<T> *c) {

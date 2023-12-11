@@ -51,6 +51,6 @@ int main()
 {
   float cshift, rshift;
   test(cshift, rshift);
-  printf("%f,%f\n", static_cast<double>(cshift), static_cast<double>(rshift));
+  printf("%f, %f\n", static_cast<double>(cshift), static_cast<double>(rshift));
   return 0;
 }
